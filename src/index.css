@@ -1,0 +1,30 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.app {
+  height: 100vh;
+  overflow: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("./assets/news.jpg") center / cover no-repeat;
+}
+.content {
+  display: grid;
+  grid-template-columns: 500px 450px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.content_page {
+  padding-left: 40px;
+}
+@media (max-width: 965px) {
+  .content {
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+  }
+}

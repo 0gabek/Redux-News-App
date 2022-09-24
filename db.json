@@ -1,0 +1,56 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "name": "My fist news",
+      "description": "I am learning React js. This is my first news",
+      "category": "Hot_News"
+    },
+    {
+      "id": 2,
+      "name": "My second news",
+      "description": "I am writing on Football. This is my second news",
+      "category": "Sport_News"
+    },
+    {
+      "id": "2733ca91-a93f-4958-9a7b-771c51fbcefc",
+      "name": "My third news",
+      "description": "I am saying what temperature is in our area. This is my fourth news",
+      "category": "World_News"
+    },
+    {
+      "id": "525865ac-6703-48c8-8d01-b93a26aafa5a",
+      "name": "My fourth news",
+      "description": "My fourth news is about testing functions whether they work correctly or not",
+      "category": ""
+    },
+    {
+      "id": "3cb8f2d1-2f03-4b06-95c2-0d3b8f4a5200",
+      "name": "My fifth news",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta commodi esse dolorum reiciendis tenetur totam?",
+      "category": "Hot_News"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "ALL",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "Hot_News",
+      "label": "Hot_News",
+      "className": "btn-outline-danger"
+    },
+    {
+      "name": "Sport_News",
+      "label": "Sport_News",
+      "className": "btn-outline-primary"
+    },
+    {
+      "name": "World_News",
+      "label": "World_News",
+      "className": "btn-outline-success"
+    }
+  ]
+}
